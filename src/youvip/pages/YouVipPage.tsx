@@ -1,9 +1,10 @@
-import { Typography } from "@mui/material";
+import { YouVipLayout } from "../layout/YouVipLayout";
+import { NothingSelectedView } from "../views/NothingSelectedView";
 
 export const YouVipPage = () => {
   return (
-    <>
-      <Typography variant="h1">YouVip</Typography>
-    </>
+    <YouVipLayout>
+      <NothingSelectedView />
+    </YouVipLayout>
   );
 };

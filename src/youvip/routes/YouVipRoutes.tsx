@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes } from "react-router-dom";
-import { YouVipPage } from "../pages/YouVipPage";
+import { YouVipPage } from "../pages";
+
 
 export const YouVipRoutes = () => {
   return (

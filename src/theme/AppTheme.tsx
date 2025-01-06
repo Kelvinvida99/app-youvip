@@ -1,16 +1,13 @@
-import { ThemeProvider } from "@emotion/react"
-import { CssBaseline } from "@mui/material"
-import { purpleTheme } from "./purpleTheme";
-
-interface ChildrenProps {
-  children: React.ReactNode;
-}
+import { ThemeProvider } from "@emotion/react";
+import { CssBaseline } from "@mui/material";
+import { darkTheme } from "./darkTheme";
+import { ChildrenProps } from "../interfaces/children.interface";
 
 export const AppTheme = ({ children }: ChildrenProps) => {
-  return(
-    <ThemeProvider theme={purpleTheme}>
-      <CssBaseline/>
+  return (
+    <ThemeProvider theme={darkTheme}>
+      <CssBaseline />
       {children}
     </ThemeProvider>
-  )
-}
+  );
+};
