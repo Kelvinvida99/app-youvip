@@ -1,10 +1,10 @@
 import { YouVipLayout } from "../layout/YouVipLayout";
-import { NothingSelectedView } from "../views/NothingSelectedView";
+import { CreateMoviePage } from "../views/CreateMoviePage";
 
 export const YouVipPage = () => {
   return (
     <YouVipLayout>
-      <NothingSelectedView />
+      <CreateMoviePage />
     </YouVipLayout>
   );
 };
